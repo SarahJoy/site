@@ -1,0 +1,54 @@
+   <link rel=stylesheet href="https://dl.dropbox.com/s/a2k5h70ypzgolwe/demo-slideshow.css">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+   <script src="https://dl.dropbox.com/s/jxuk404b4jbk5e9/jquery.cycle2.js"></script>
+   <script src="http://jquery.malsup.com/cycle2/jquery.cycle2.center.js"></script>
+   <script src="http://malsup.github.io/jquery.cycle2.swipe.js"></script>
+   <script src="http://malsup.github.io/ios6fix.js"></script>
+
+    <div class="cycle-slideshow" 
+    data-cycle-fx=fade
+    data-cycle-timeout=0
+    data-cycle-allow-wrap=false
+    data-cycle-swipe=true
+    data-cycle-center-horz=true
+    >
+
+<!-- empty element for overlay -->
+    <div class="cycle-overlay"></div>
+
+<!-- empty element for caption -->
+    <div class="cycle-caption"></div>
+
+<!-- prev/next links -->
+    <div class="cycle-prev"></div>
+    <div class="cycle-next"></div>
+	
+<img src="http://farm4.staticflickr.com/3708/10738469735_0bd4a60a06_o.jpg" data-cycle-hash="/1/"
+          data-cycle-desc="Rainforest"
+>
+	
+<img src="http://www.patagonia.com/images/common/homepage/1400x875_miller_a_0026_F13.jpg" data-cycle-hash="/2/" 
+          data-cycle-desc="Sonnenberg Gardens"
+>
+	
+<img src="http://www.saralando.com/images/gallery/saralando_1.jpg" data-cycle-hash="/3/" 
+          data-cycle-desc="Sonnenberg Gardens"
+>
+
+<img src="http://www.federicoveronesi.com/wp-content/uploads/001_Lion_landscape_African_Wildlife_fine_art_prints.jpg" data-cycle-hash="/4/" 
+          data-cycle-desc="Sonnenberg Gardens"
+>
+ 
+<img src="https://dl.dropbox.com/s/ptk4e25dhhu6tel/background.jpg"data-cycle-hash="/5/"
+          data-cycle-desc="Muir Woods National Monument"
+>
+    
+<img src="http://www.juzaphoto.com/shared_files/uploads/640488.jpg" data-cycle-hash="/6/"
+          data-cycle-desc="San Franscisco Bay" 
+>
+    
+<img src="http://www.juzaphoto.com/shared_files/uploads/252562.jpg" data-cycle-hash="/7/"
+          data-cycle-desc="Adirondack State Park"
+>
+
+</div>
